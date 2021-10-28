@@ -79,3 +79,17 @@ agora aparecera uma mensagem informando que o recurso ou o pai dele está bloque
 ![10](https://user-images.githubusercontent.com/49000442/139319618-49625662-8ae3-4a4c-b367-cc2869a7c1a0.JPG)
 
 Embora não tenhamos criado um bloqueio especifico para a conta de armazenamento, o bloqueio criado para o grupo de recursos pai impede a exclusão do recurso. em outras palavras, a conta de armazenamento herda o bloqueio do grupo de recurso pai.
+
+## **Excluir o grupo de recursos e a conta de armazenamento**
+Ao excluir um grupo de recurso, também excluimos os recursos filho, como a conta de armazenamento criada anteriormente. Para excluir o grupo de recursos, primeiro temos que remover o bloqueio de recurso.
+1. Selecionamos **Página Inicial > Grupos de recursos > my-test-rg** para acessar o grupo de recursos.
+2. Em **Configurações**, selecionamos **Bloqueios**.
+3. Localizamos **rg-delete-lock** e escolhemos **Excluir grupo de recurso**.
+4. Selecionamos **Visão geral** e escolhemos **Excluir grupo de recursos**.
+5. No aviso, insira **my-test-rg** e selecionamos **OK**.
+
+A operação de exclusão pode levar alguns minutos para ser concluida.
+
+6. Quando a operação de exclusão for concluída, selecionamos **Página Inicial > Grupos de recursos**.
+
+veremos agora que o grupo de recursos **my-test-rg** não existe mais na conta. e a conta de armazenamento também foi excluida.
