@@ -1,4 +1,4 @@
-# Trein._Azure
+# Treinamento_Azure
 ## proteger uma conta de armazenamento, contra exclusão acidental usando um bloqueio de recurso
 
 
@@ -12,3 +12,9 @@ Adicionaremos uma conta de armazenamento ao grupo de recurso e veremos como o bl
 
 
 ## Criando um grupo de recursos
+1. Acesse o portal do Azure
+2. Na parte superior da página, selecione Grupos e recursos.
+3. Selecione +Novo. Cria um grupo de recursos 
+4. Na guia Básico preencha os campos conforme figura abaixo.
+
+![001](https://user-images.githubusercontent.com/49000442/139307373-26eabdd2-e538-4a72-9da4-6d6144bdd8d1.JPG)
