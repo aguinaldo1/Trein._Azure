@@ -41,3 +41,16 @@ Você vera que o bloqueio de recurso foi aplicado ao grupo de recursos.
 Aqui, vamos confirmar a proteção tentando excluir o grupo de recursos.
 
 1. Na parte superior da página, selecionamos **my-test-rg** para acessar a página de visão geral do grupo de recursos.
+
+![05](https://user-images.githubusercontent.com/49000442/139316505-50356797-24ff-42a2-872a-b3e398e5c45f.JPG)
+
+2. Selecione **Excluir grupo de recursos**.
+
+![06](https://user-images.githubusercontent.com/49000442/139316547-e176951e-7506-4959-9b81-282ffc102718.JPG)
+
+3. No aviso, insira **my-test-rg** e selecione **OK**
+
+Veremos uma mensagem que informa que o grupo de recursos está bloqueado e não podera ser excluído.
+![07](https://user-images.githubusercontent.com/49000442/139316576-b0903032-a840-4baa-9050-34f21e596ab5.JPG)
+
+confirmando assim que o procedimento deu certo.
