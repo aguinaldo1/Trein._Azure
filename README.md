@@ -29,7 +29,15 @@ Em seguida adcionaremos um bloqueio ao grupo de recursos e confirmaremos se ele 
 
 3. Preencha estes campos
 
+![03](https://user-images.githubusercontent.com/49000442/139315184-cb61a061-3483-4324-9f2d-da82ec2a72d9.JPG)
 
 4. Selecione **OK**
 
+![04](https://user-images.githubusercontent.com/49000442/139315202-033ab04c-7e7b-49e6-9439-5aceeff4a096.JPG)
+
 Você vera que o bloqueio de recurso foi aplicado ao grupo de recursos.
+
+## **Confirmar se o grupo de recursos está protegido contra exclusão**
+Aqui, vamos confirmar a proteção tentando excluir o grupo de recursos.
+
+1. Na parte superior da página, selecionamos **my-test-rg** para acessar a página de visão geral do grupo de recursos.
