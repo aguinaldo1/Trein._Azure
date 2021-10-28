@@ -1,4 +1,6 @@
+![azure](https://user-images.githubusercontent.com/49000442/139308824-4a3518e8-9a19-4798-9461-fc392bfeda3c.png) 
 # Treinamento_Azure
+
 ## proteger uma conta de armazenamento, contra exclusão acidental usando um bloqueio de recurso
 
 
