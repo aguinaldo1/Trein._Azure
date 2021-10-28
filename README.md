@@ -25,3 +25,11 @@ Em seguida adcionaremos um bloqueio ao grupo de recursos e confirmaremos se ele 
 1. No portal do Azure, selecione o grupo de recursos **my-test-rg**.
 2. Em **Configurações**, selecione **Bloqueios** e **Adcionar**.
 
+![02](https://user-images.githubusercontent.com/49000442/139314392-95b5554b-e665-4def-86d1-5b4bfccb4f3c.JPG)
+
+3. Preencha estes campos
+
+
+4. Selecione **OK**
+
+Você vera que o bloqueio de recurso foi aplicado ao grupo de recursos.
