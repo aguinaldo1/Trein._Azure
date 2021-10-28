@@ -53,4 +53,12 @@ Aqui, vamos confirmar a proteção tentando excluir o grupo de recursos.
 Veremos uma mensagem que informa que o grupo de recursos está bloqueado e não podera ser excluído.
 ![07](https://user-images.githubusercontent.com/49000442/139316576-b0903032-a840-4baa-9050-34f21e596ab5.JPG)
 
-confirmando assim que o procedimento deu certo.
+## **Protege uma conta de armazenamento contra exclusão acidental**
+Aqui, adcionaremos uma conta de armazenamento ao grupo de recursos e veremos como o bloqueio do grupo de recursos pai impede a exclusão da conta de armazenamento.
+
+1. No portal do Azure, na parte superior da página, selecionamos **Página Inicial** para voltar à página inicial.
+2. Selecionamos **Contas de armazenamento**. Em seguida, +**Novo**. A página **Criar conta de armazenamento** é exibida.
+3. Na guia **Básico**, preenchemos os campos conforme imagem 
+
+**Observação
+Substituimos NNN por uma série de números. Os números ajudam a fazer com que o nome da conta de armazenamento seja exclusivo.
