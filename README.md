@@ -62,3 +62,20 @@ Aqui, adcionaremos uma conta de armazenamento ao grupo de recursos e veremos com
 
 **Observação
 Substituimos NNN por uma série de números. Os números ajudam a fazer com que o nome da conta de armazenamento seja exclusivo.
+
+![08](https://user-images.githubusercontent.com/49000442/139319543-72e521b1-3469-42f4-9ebe-6b8c14c940de.JPG)
+
+Como antes, também podemos selecionar uma região que esteja mais perto de nossa localidade
+
+4. Selecionamos **Examinar + Criar** e, em seguida, selecionamos **Criar**.
+"*A implantação pode levar alguns minutos para ser concluída."
+5. Selecionamos **Ir para o recurso**.
+6. Na parte superior da página, selecionamos **Excluir**.
+
+![09](https://user-images.githubusercontent.com/49000442/139319568-84162e4c-f561-4c00-be75-b12715ef84ae.JPG)
+
+agora aparecera uma mensagem informando que o recurso ou o pai dele está bloqueado e não pode ser excluído. Este é um exemplo que mostra a mensagem de erro para uma conta de armazenamento chamada **mysa1234**.
+
+![10](https://user-images.githubusercontent.com/49000442/139319618-49625662-8ae3-4a4c-b367-cc2869a7c1a0.JPG)
+
+Embora não tenhamos criado um bloqueio especifico para a conta de armazenamento, o bloqueio criado para o grupo de recursos pai impede a exclusão do recurso. em outras palavras, a conta de armazenamento herda o bloqueio do grupo de recurso pai.
